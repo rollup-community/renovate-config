@@ -2,10 +2,10 @@ name: validate
 on:
   pull_request:
     branches:
-      - master
+      - main
   push:
     branches:
-      - master
+      - main
 jobs:
   validate:
     name: validate
